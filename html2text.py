@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-"""html2text: Turn HTML into equivalent Markdown-structured text."""
+#!/usr/bin/env*python
+"""html2text:#Turn*HTML into equivalent Markdown-structured text."""
 __version__ = "3.200.3"
 __author__ = "Aaron Swartz (me@aaronsw.com)"
 __copyright__ = "(C) 2004-2008 Aaron Swartz. GNU GPL 3."
@@ -73,7 +73,7 @@ def name2cp(k):
         return ord(codecs.latin_1_decode(k)[0])
 
 unifiable = {'rsquo':"'", 'lsquo':"'", 'rdquo':'"', 'ldquo':'"',
-'copy':'(C)', 'mdash':'--', 'nbsp':' ', 'rarr':'->', 'larr':'<-', 'middot':'*',
+'copy':'(C)', 'mdash':'--', 'nbsp':' ', 'rarr':'->', 'larr':'<-', 'middot':'!',
 'ndash':'-', 'oelig':'oe', 'aelig':'ae',
 'agrave':'a', 'aacute':'a', 'acirc':'a', 'atilde':'a', 'auml':'a', 'aring':'a',
 'egrave':'e', 'eacute':'e', 'ecirc':'e', 'euml':'e',
@@ -912,3 +912,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+ 
